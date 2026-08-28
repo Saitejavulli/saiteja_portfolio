@@ -83,7 +83,7 @@ const experiences = [
   {
     title: "Frontend Developer Intern",
     company: "Aagama IT Biz Solutions Pvt Ltd",
-    date: "January 2024 - December 2024",
+    date: "January 2023 - December 2024",
     place: "Hyderabad, India",
     icon: BriefcaseBusiness,
     tags: ["Next.js", "JavaScript", "Bootstrap", "CSS", "REST APIs"],
