@@ -1,13 +1,393 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Saiteja Vulli | Portfolio</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saiteja Vulli | Portfolio</title>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="logo">
+        <span>SV</span>
+        Saiteja Vulli
+      </a>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+        <a href="assets/Saiteja-Vulli-Resume.pdf" class="resume-btn" download>Resume</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="top-badges">
+            <span>Available for Full-Time Opportunities</span>
+            <span>Graduating Dec 2026</span>
+          </div>
+
+          <p class="intro">Hello, I'm</p>
+          <h1>Saiteja Vulli</h1>
+          <h2>/ Graduate Research Assistant</h2>
+
+          <p class="hero-text">
+            Graduate Data Science student at Rowan University with experience in AI,
+            machine learning, data engineering, frontend development, and cloud-based
+            applications. Passionate about building intelligent, scalable, and user-friendly
+            digital products.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="assets/Saiteja-Vulli-Resume.pdf" class="btn primary" target="_blank">View Resume</a>
+            <a href="#projects" class="btn secondary">View Projects</a>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/Saitejavulli" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/saiteja-vulli-896221247/" target="_blank">LinkedIn</a>
+            <a href="mailto:saitejavulli@gmail.com">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="image-card">
+            <img src="assets/profile.jpg" alt="Saiteja Vulli" />
+            <div class="floating-badge">Generative AI</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat-card">
+          <h3>3.98/4.00</h3>
+          <p>Current GPA</p>
+        </div>
+        <div class="stat-card">
+          <h3>4.00</h3>
+          <p>First Semester GPA</p>
+        </div>
+        <div class="stat-card">
+          <h3>Dec 2026</h3>
+          <p>Graduation</p>
+        </div>
+        <div class="stat-card">
+          <h3>Glassboro, NJ</h3>
+          <p>Location</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-title">
+          <p>About Me</p>
+          <h2>Turning Data Into Intelligent Solutions</h2>
+        </div>
+
+        <div class="about-card">
+          <p>
+            I am a Master’s student in Data Science at Rowan University, focused on
+            machine learning, artificial intelligence, data engineering, and full-stack
+            development. I enjoy solving real-world problems using data-driven systems
+            and building clean, modern applications.
+          </p>
+
+          <p>
+            My experience includes working as a Graduate Research Assistant at Rowan
+            University and as a Frontend Developer Intern at Aagama Software Technologies.
+            I have built projects involving AI resume analysis, fraud detection, data
+            pipelines, computer vision, and large-scale analytics.
+          </p>
+
+          <div class="tag-list">
+            <span>Python</span>
+            <span>Machine Learning</span>
+            <span>Generative AI</span>
+            <span>Data Engineering</span>
+            <span>React</span>
+            <span>SQL</span>
+            <span>AWS</span>
+            <span>Power BI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-bg" id="experience">
+      <div class="container">
+        <div class="section-title">
+          <p>Experience</p>
+          <h2>Professional Journey</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-card">
+            <div>
+              <h3>Graduate Research Assistant</h3>
+              <h4>Rowan University</h4>
+            </div>
+            <span class="date">Jan 2026 - Present</span>
+            <p>
+              Supporting research and data-focused academic work involving analytics,
+              AI workflows, and research-based technical solutions.
+            </p>
+          </div>
+
+          <div class="timeline-card">
+            <div>
+              <h3>Frontend Developer Intern</h3>
+              <h4>Aagama Software Technologies</h4>
+            </div>
+            <span class="date">Jan 2024 - Dec 2024</span>
+            <p>
+              Built responsive frontend interfaces, improved user experience, and worked
+              with modern web technologies to develop scalable application components.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-title">
+          <p>Skills</p>
+          <h2>Technical Expertise</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Programming</h3>
+            <p>Python, JavaScript, Java, C, HTML, CSS</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Data Science & AI</h3>
+            <p>Machine Learning, Deep Learning, NLP, Generative AI, Computer Vision</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Data Engineering</h3>
+            <p>SQL, PySpark, Pandas, NumPy, ETL Pipelines, Parquet</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Web Development</h3>
+            <p>React, Node.js, REST APIs, Responsive Design</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Cloud & Tools</h3>
+            <p>AWS, Git, GitHub, Docker, VS Code</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Visualization</h3>
+            <p>Power BI, Tableau, Matplotlib, Seaborn, Excel</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-bg" id="projects">
+      <div class="container">
+        <div class="section-title">
+          <p>Projects</p>
+          <h2>Featured Work</h2>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>AetherFlow</h3>
+            <p>
+              AI-powered workflow and productivity application designed to simplify
+              intelligent task automation and user interaction.
+            </p>
+            <div class="project-tags">
+              <span>AI</span>
+              <span>React</span>
+              <span>Automation</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Banking Fraud Detection</h3>
+            <p>
+              Machine learning model for detecting suspicious banking transactions
+              and identifying fraud patterns using data-driven techniques.
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>ML</span>
+              <span>Data Science</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Resume Analyzer</h3>
+            <p>
+              AI-based resume analysis system that evaluates resumes and provides
+              insights for improvement.
+            </p>
+            <div class="project-tags">
+              <span>NLP</span>
+              <span>Generative AI</span>
+              <span>Python</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>NYC Yellow Taxi Data Analysis</h3>
+            <p>
+              Large-scale data analysis project using NYC taxi trip data to discover
+              trends, patterns, and business insights.
+            </p>
+            <div class="project-tags">
+              <span>PySpark</span>
+              <span>Analytics</span>
+              <span>Big Data</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Crack Detection</h3>
+            <p>
+              Computer vision project for detecting cracks in surfaces using deep
+              learning and image classification methods.
+            </p>
+            <div class="project-tags">
+              <span>CNN</span>
+              <span>Computer Vision</span>
+              <span>Deep Learning</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Parquet Compactor CLI</h3>
+            <p>
+              Command-line tool for compacting Parquet files and improving data
+              storage efficiency in data workflows.
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>CLI</span>
+              <span>Data Engineering</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-title">
+          <p>Education</p>
+          <h2>Academic Background</h2>
+        </div>
+
+        <div class="education-grid">
+          <div class="education-card">
+            <h3>Master of Science in Data Science</h3>
+            <h4>Rowan University</h4>
+            <p>Jan 2025 - Dec 2026</p>
+            <p>GPA: 3.98/4.00</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-bg" id="certifications">
+      <div class="container">
+        <div class="section-title">
+          <p>Certifications</p>
+          <h2>Learning & Achievements</h2>
+        </div>
+
+        <div class="cert-grid">
+          <div class="cert-card">
+            <h3>Convolutional Neural Networks</h3>
+            <p>Coursera</p>
+          </div>
+
+          <div class="cert-card">
+            <h3>Data Analysis with Python</h3>
+            <p>IBM</p>
+          </div>
+
+          <div class="cert-card">
+            <h3>SQL and Relational Databases</h3>
+            <p>IBM</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="resume">
+      <div class="container">
+        <div class="resume-section">
+          <h2>View My Resume</h2>
+          <p>
+            Download my resume to learn more about my education, experience,
+            technical skills, and projects.
+          </p>
+          <a href="assets/Saiteja-Vulli-Resume.pdf" class="btn primary" download>Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-bg" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <p>Contact</p>
+          <h2>Let’s Connect</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <p>Email: <a href="mailto:saitejavulli@gmail.com">saitejavulli@gmail.com</a></p>
+            <p>Phone: <a href="tel:+18563479826">+1 856-347-9826</a></p>
+            <p>Location: Glassboro, New Jersey</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/saiteja-vulli-896221247/" target="_blank">saiteja-vulli</a></p>
+            <p>GitHub: <a href="https://github.com/Saitejavulli" target="_blank">Saitejavulli</a></p>
+          </div>
+
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Saiteja Vulli. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
